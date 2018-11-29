@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/pframe"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0">
+
+            <Button
+                android:id="@+id/pnone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="None" />
+
+            <Button
+                android:id="@+id/pstar1"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:minHeight="1dp"
+                android:padding="0dp"
+                android:text="☆"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/pstar2"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:minHeight="1dp"
+                android:padding="0dp"
+                android:text="☆"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/pstar3"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:minHeight="1dp"
+                android:padding="0dp"
+                android:text="☆"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/pstar4"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:minHeight="1dp"
+                android:padding="0dp"
+                android:text="☆"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/pstar5"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:minHeight="1dp"
+                android:padding="0dp"
+                android:text="☆"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="X"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2" />
+</android.support.constraint.ConstraintLayout>
